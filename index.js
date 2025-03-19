@@ -15,7 +15,7 @@ const ARGO_AUTH = process.env.ARGO_AUTH || '';                    // 固定隧�
 
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nazhe.841013.xyz';  // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
-const NEZHA_KEY = process.env.NEZHA_KEY || 'eAFhklcOEZmZRxI0FG';        // 哪吒客户端密钥
+const NEZHA_KEY = process.env.NEZHA_KEY || 'IUT9MCT6khVYWe7pNY';        // 哪吒客户端密钥
 const SUB_NAME = process.env.SUB_NAME || 'Appwrite.io';          // 节点名称
 
 const PORT = process.env.PORT || process.env.SERVER_PORT || 3000;  // 只用argo时启用这行,注释下行
