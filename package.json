@@ -1,16 +1,12 @@
 {
-  "name": "Hello-World",
+  "name": "my-project",
   "version": "1.0.0",
-  "description": "Hello-World",
+  "description": "littlebubble",
   "main": "index.js",
-  "repository": "",
-  "author": "MY",
-  "license": "MIT",
-  "private": false,
   "scripts": {
     "start": "node index.js"
   },
-  "engines": {
-    "node": ">=14"
+  "dependencies": {
+    "child_process": "^1.0.2"
   }
 }
